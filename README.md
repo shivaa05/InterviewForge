@@ -68,32 +68,6 @@ and collaborative problem solving**.
 -   Stream Video SDK -- Video calling
 -   Stream Chat -- Real-time chat
 
-------------------------------------------------------------------------
-
-## 📂 Project Structure
-
-   root
-├── frontend
-│   ├── src
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── hooks
-│   │   ├── context
-│   │   ├── data
-│   │   └── lib
-│   └── package.json
-│
-├── backend
-│   ├── models
-│   ├── routes
-│   ├── controllers
-│   ├── middleware
-│   ├── utils
-│   ├── index.js
-│   └── package.json
-│
-└── README.md
-
 
 ------------------------------------------------------------------------
 
