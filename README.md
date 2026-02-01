@@ -72,14 +72,28 @@ and collaborative problem solving**.
 
 ## 📂 Project Structure
 
-    root
-    ├── frontend
-    │   ├── src
-    │   └── package.json
-    ├── backend
-    │   ├── index.js
-    │   └── package.json
-    └── README.md
+   root
+├── frontend
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── hooks
+│   │   ├── context
+│   │   ├── data
+│   │   └── lib
+│   └── package.json
+│
+├── backend
+│   ├── models
+│   ├── routes
+│   ├── controllers
+│   ├── middleware
+│   ├── utils
+│   ├── index.js
+│   └── package.json
+│
+└── README.md
+
 
 ------------------------------------------------------------------------
 
@@ -102,7 +116,7 @@ and collaborative problem solving**.
 
 ### Backend (.env)
 
-PORT=5000\
+PORT=3000\
 MONGO_URI=your_mongodb_connection_string\
 JWT_SECRET=your_jwt_secret\
 STREAM_API_KEY=your_stream_api_key\
